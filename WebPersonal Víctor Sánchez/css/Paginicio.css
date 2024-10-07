@@ -1,0 +1,108 @@
+/* ----- Imagen debajo de encabezado ----- */
+
+.subpuesta{
+    width: 100%;
+    max-height: 600px;
+    margin-bottom: 0;  
+}
+.superpuesta{
+    width: 500px;
+    margin-top: -2000px;
+    margin-left: 740px;
+    margin-bottom: 335px;
+}
+
+/* "Nuestros productos */
+.text{
+    font-size: 30px;
+    color: #abb8c3;
+    text-align: center;
+}
+
+/* Animación de slide de imagenes*/ 
+.slider{
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.slider ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    animation: slide 20s linear infinite;
+}
+
+.slider li{
+    flex: 0 0 calc(20% -10px);
+    margin-right: 250px;
+    color: #abb8c3;
+    font-size: 18px;
+
+}
+
+.slider li p{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.slider li img{
+    width: 100%;
+    height: 300px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(calc(-24% * 7));
+    }
+}
+
+/* Linea intermedia*/
+.linea{
+    border-bottom: 4px solid;
+    border-color: #abb8c3;
+    width: 75%;
+    justify-content: center;
+    margin-left: 12.5%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Texto de bienvenida a la web*/
+.bienvenido{
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bienvenido h3{
+    font-size: 30px;
+}
+
+.bienvenido i{
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bienvenido p{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    color: #abb8c3;
+}
+
+.bienvenido i{
+    font-size: 18px;
+    color: #abb8c3;
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+
+}
+
+body{
+    background-color: #121212;
+    height: 100%;
+}
+
+/*----- Encabezado ----- */
+.navbar{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid;
+}
+
+.logo img{
+    margin-left: 80px;
+    width: 220px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.intermedio{
+    background-color: #ffffff;
+    color: #ffffff;
+    height: 60px;
+    width: 5px;
+}
+
+.iconos{
+    list-style: none;
+    display: flex;
+}
+
+.iconos li a{
+    margin: 0 10px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* ----- Pie de página ----- */
+
+.pie{
+    bottom: 0; 
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid;
+}
+
+.menuinf{
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+.menuinf li{
+    color: #ffffff;
+}
+.menuinf li a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.iconosinf{
+    margin-right: 30px;
+    list-style: none;
+    display: flex;
+}
+
+.iconosinf li a{
+    margin: 0 10px;
+    padding: 10px;
+    color: #ffffff;   
+}
+
+.copy{
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}

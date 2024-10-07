@@ -1,0 +1,185 @@
+/* Texto "contacto" y "preguntas frecuentes" */
+h3{
+    font-size: 32px;
+    color: #abb8c3;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+/* Texto "mandanos un mensaje */
+h4{
+    font-size: 30px;
+    color: #abb8c3;
+    text-align: left;
+    margin-left: 290px;
+    margin-bottom: 20px;
+}
+
+
+.Contacto{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* Bloque formulario izquierdo */
+.mensaje{
+    margin-left: 290px;
+    padding: 20px;
+    border: 4px solid;
+    border-color: #abb8c3;
+    border-radius: 10px;
+    max-height: 390px;
+    width: 630px;
+}
+
+.mensaje input{
+    height: 30px;
+    width: 302px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form select{
+    width: 609px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.mensaje textarea{
+    margin-top: 10px;
+    min-width: 609px;
+    max-width: 609px;
+    min-height: 250px;
+    max-height: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.mensaje button{
+    display: flex;
+    width: 615px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    border-color: #abb8c3;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #abb8c3;
+}
+
+.mensaje button:hover{
+    cursor: pointer;
+}
+
+.mensaje p{
+    color: #abb8c3;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+::placeholder{
+    padding: 10px;
+}
+/* Linea intermedia */
+.linea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8px;
+    color: #abb8c3;
+    background-color: #abb8c3;
+    margin-left: 145px;
+}
+
+/* Bloque derecho logos e info de contacto */
+.info{
+    margin-left: 145px;
+    margin-right: 290px;
+    font-size: 22px;
+    color: #abb8c3;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid;
+    border-color: #abb8c3;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 390px;
+}
+
+.ubi{
+    margin-bottom: 80px;
+}
+
+.mail{
+    margin-bottom: 80px;
+}
+
+.telf{
+    margin-bottom: 80px;
+}
+
+/* Bloque inferior preguntas */
+.text{
+    font-size: 22px;
+    color: #abb8c3;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-bottom: 2px solid;
+    border-top: 2px sol;
+}
+
+.Preguntas{
+    font-size: 18px;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.desplegable label{
+    display: block;
+    padding: 20px;
+    color: #abb8c3;
+    cursor: pointer;
+    border: 3px solid;
+    transition: all 300ms ease-in-out;
+}
+
+.desplegable label:hover{
+    background-color: #222222;
+}
+
+.respuesta{
+    padding: 0px;
+    margin: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+    color: #abb8c3;
+    transition: all 300ms ease;
+}
+
+.respuesta table{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-desplegable:checked ~ .respuesta{
+    max-height: 1200px;
+    padding: 15px 0px;
+}
+
+.boton-desplegable{
+    display: none;
+}
+
+.invisible{
+    color: #121212;
+}

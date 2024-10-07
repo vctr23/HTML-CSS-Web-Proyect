@@ -1,0 +1,39 @@
+.inter{
+    display: flex;
+}
+.izq{
+    width: 55%;
+    margin-left: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    font-size: 32px;
+    color: #abb8c3;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: #abb8c3;
+    padding: 20px;
+    text-align: center;
+}
+
+i{
+    font-size: 22px;
+    color: #abb8c3;
+    text-align: left;
+    margin-left: -450px;
+    margin-bottom: 50px;
+}
+
+.der img{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 150px;
+}
